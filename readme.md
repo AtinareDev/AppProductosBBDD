@@ -51,14 +51,14 @@ CREATE TABLE IF NOT EXISTS productos (
 );
 
 ### Configuracion de la BBDD:
-
+```
 db_manager = DBManager(
     host="localhost",
     user="root",      # Cambia esto por tu usuario de MySQL
     password="",      # Cambia esto por tu contraseña de MySQL
     database="app_inventario"
 )
-
+```
 ### Ejecución:
 
 Dede main.
