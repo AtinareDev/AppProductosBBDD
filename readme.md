@@ -30,7 +30,7 @@ Esta es una aplicación de consola desarrollada en Python que permite gestionar 
 ### MySql
 
 Hay que tener una instancia de MySQL corriendo en tu máquina local o en un servidor remoto. Crea una base de datos llamada, por ejemplo, app_inventario y las siguientes tablas(sentencias sql):
-
+``
 CREATE DATABASE IF NOT EXISTS app_inventario;
 
 USE app_inventario;
@@ -49,7 +49,7 @@ CREATE TABLE IF NOT EXISTS productos (
     cantidad INT NOT NULL,
     descripcion TEXT
 );
-
+``
 ### Configuracion de la BBDD:
 ```
 db_manager = DBManager(
